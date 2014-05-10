@@ -1,0 +1,49 @@
+body {
+   height:100%;
+   width:100%;
+   background-image:url(background-dark.jpg); /*your background image*/
+   /*css hack for ie*/
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='background-dark-2.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='background-dark-2.jpg', sizingMethod='scale')";
+   /*we want to have one single image not a repeated one*/
+   background-repeat:no-repeat;
+   /*this sets the image to fullscreen covering the whole screen*/
+   background-size:cover; 
+   text-align: center;
+   color: white;
+   font-family: Corbel, Arial;
+}
+
+body, img {
+    margin-top:100px;
+}
+
+body, h1 {
+	 font-size: 90px;
+	 font-weight: bold;
+   text-shadow: 2px 2px 5px black;
+   margin: auto;
+   margin-top: 60px;
+}
+
+body, h2 {
+	 font-size: 20px;
+}
+
+.button {
+    margin: auto;
+    margin-top: 80px;
+    display: block;
+    width: 180px;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    padding: 20px 10px 20px 10px;
+    border-radius:2px;
+    text-decoration: none;
+}
+
+.button:hover {
+   background-color: rgba(255,255,255,0.5);
+
+};
