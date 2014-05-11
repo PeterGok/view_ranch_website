@@ -1,4 +1,3 @@
-
 <html lang="en">
 
 	<head>
@@ -13,11 +12,11 @@
 	    <!-- Bootstrap core CSS -->
 	    <link href="css/bootstrap.min.css" rel="stylesheet">
 	    <!-- Custom styles for this template -->
-	    <link href="/static/website/cover.css" rel="stylesheet">
+	    <link href="cover.css" rel="stylesheet">
 	</head>
 
 	<body>
-	<img src="/static/website/ViewRanchLogo.png">
+	    <img src="../ViewRanchLogo.png">
 	    <h1>Find Influence. Drive Traffic.</h1>
 	    <h2>Helping developers and designers find and connect with influenetial individuals.</h2>
 	    <a href="mailto:kevin.michael.905@gmail.com" class="button">Contact Us</a>

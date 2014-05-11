@@ -1,10 +1,10 @@
 body {
    height:100%;
    width:100%;
-   background-image:url(background-dark.jpg); /*your background image*/
+   background-image:url(/static/website/background-dark.jpg); /*your background image*/
    /*css hack for ie*/
-   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='background-dark-2.jpg',sizingMethod='scale');
-   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='background-dark-2.jpg', sizingMethod='scale')";
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/website/background-dark-2.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='static/website/background-dark-2.jpg', sizingMethod='scale')";
    /*we want to have one single image not a repeated one*/
    background-repeat:no-repeat;
    /*this sets the image to fullscreen covering the whole screen*/
